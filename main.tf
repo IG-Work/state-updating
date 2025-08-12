@@ -9,7 +9,7 @@ terraform {
 
 provider "random" {}
 
-resource "random_pet" "old_resource" {
+resource "random_pet" "new_resource" {
   length    = 2
   separator = "-"
 }
